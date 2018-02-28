@@ -7,6 +7,12 @@
   /*background-color: 1b1d32;*/
 }
 
+clearfix::after {
+  content:"";
+  display: table;
+  clear: both;
+}
+
 }
 .container {  
   width: 1142px;
@@ -16,12 +22,42 @@
 }
 
 .navigation {
+  font-size: 13px regular;
+  text-align: center;
+  text-transform: uppercase;
+  color: white;
   float: left;
   min-width: 878px;
   min-height: 103px;
 }
 
-.free-consultation {
+.logo {
+  padding-right: 273px;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding-left: 0;
+}
+
+a {
+  text-decoration: none;
+  
+}
+
+li {
+  display: inline-block;  
+}
+
+a li {
+  
+}
+
+.free-consultation1 {
+  font-size: 12px bold;
+  text-transform: uppercase;
+  color: white;
   float: right;
   min-width: 222px;
   min-height: 103px;
@@ -34,3 +70,17 @@
 .info {
   background-color: f7f7f7;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
