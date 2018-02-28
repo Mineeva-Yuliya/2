@@ -1,21 +1,24 @@
 .body {
   font-family: "Open Sans", Arial;
   font-size: 12px;
-  width: 1920px;
-  height: 2177px;
+  min-width: 1920px;
+  min-height: 2400px;  
+  background-image: url ("../img/bg-header.jpg") no-repeat;
+  background-color: 1b1d32;
 }
 
-.conteiner {
-  width: 1130px;
-  height: 2177px;
+.container {  
+  width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+  /*background-color: 1b1d32;*/
 }
 
-.fon {
-  height: 1012px;
-  background: 1b1d32 url (../img/bg-header.jpg);
+
+.features {
+  background-color: white;
 }
 
-header
-
-
-
+.info {
+  background-color: f7f7f7;
+}
