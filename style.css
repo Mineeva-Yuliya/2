@@ -3,17 +3,29 @@
   font-size: 12px;
   min-width: 1920px;
   min-height: 2400px;  
-  background-image: url ("../img/bg-header.jpg") no-repeat;
-  background-color: 1b1d32;
-}
-
-.container {  
-  width: 1170px;
-  margin-left: auto;
-  margin-right: auto;
+  background-image: 1b1d32 url ("../img/bg-header.jpg") no-repeat;
   /*background-color: 1b1d32;*/
 }
 
+}
+.container {  
+  width: 1142px;
+  margin: 0 auto;
+  padding: 0 15px;
+  /*background-color: 1b1d32;*/
+}
+
+.navigation {
+  float: left;
+  min-width: 878px;
+  min-height: 103px;
+}
+
+.free-consultation {
+  float: right;
+  min-width: 222px;
+  min-height: 103px;
+}
 
 .features {
   background-color: white;
